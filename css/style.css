@@ -1,0 +1,182 @@
+#title
+{
+background-image: url('main_cover.png');
+background-size:100%;
+color:#fff;
+}
+body{
+ background-color:#ffffdd;
+ font-family:"Montserrat"
+}
+h1, h2, h3{
+font-family: 'Montserrat', sans-serif;
+font-size:3rem;
+font-weight:bold;
+line-height:1.5;
+color:#fff;
+}
+.roleway-font{
+color:#383e56;
+font-family: 'Raleway', sans-serif;
+}
+.h3-color{
+color:#383e56;
+}
+p{
+color:#8f8f8f;
+}
+.container-fluid{
+padding:2% 15% 4% 10%;
+}
+/*Navgation Bar*/
+.logo{
+font-family: 'Ubuntu', sans-serif;
+font-size:2.5rem;
+font-weight:bold;
+}
+.navbar{
+padding:0 0 4.5rem;
+}
+.nav-item{
+padding:0 0.1rem;
+}
+.nav-link{
+font-size:1.2rem;
+font-family:"Montserrat-light"
+}
+/*Download-Buttons*/
+.download-button{
+margin:5% 3% 5% 0%;
+}
+/*title image*/
+.title-image{
+ width:95%;
+ transform:rotate(15deg);
+}
+.title-image:hover{
+ width:95%;
+ transform:rotate(-195deg);
+}
+#features{
+  padding:7% 15%;
+}
+#features h3{
+font-size:1.5rem;
+}
+.feature-box{
+text-align:center;
+padding-left:3%;
+padding-right:3%;
+}
+.icon{
+color:#ff847c;
+margin-bottom:1rem;
+}
+.icon:hover{
+color:#ff5f40;
+}
+#testimonials{
+text-align:center;
+background-color:#ef8172;
+color:#fff;
+}
+.testimonial-image{
+text-align:center;
+width:10%;
+border-radius:100%;
+margin:4%;
+}
+#companies{
+background-color:#ef8172;
+padding-bottom:3%;
+}
+.carousel-item{
+padding:7% 15%;
+}
+.companies-logo{
+  width:16.5%;
+ margin:1.25rem 1.5rem 3.125rem;
+}
+.carousel-indicators{
+margin-bottom:2%;
+}
+#pricing{
+padding:6.25rem;
+text-align:center;
+}
+.pricing-column{
+padding:3% 2%;
+}
+.price-bg{
+background-color:#f5f1da;
+}
+@media(max-width:1028px){
+#title{
+text-align:center;
+}
+.title-image{
+transform:rotate(0);
+}
+h1, h2, h3{
+font-size:1.5rem;
+}
+.logo{
+font-size:1.5rem;
+}
+em{
+font-size:0.5rem;
+}
+}
+
+#cta{
+background-color:#5e6f64;
+padding:4% 14%;
+}
+.col-lg-6 p{
+color:#e0dede;
+}
+.last-text{
+color:#fff;
+padding-bottom:2%;
+}
+.center{
+margin-left:17%;
+margin-top:8%;
+}
+#footer{
+padding:4% 15% 3%;
+text-align:center;
+}
+.social-icon{
+margin:20px 10px;
+color:#ff847c;
+}
+.social-icon:hover{
+color:#feceab;
+}
+.last-section{
+padding-top:3%;
+}
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
